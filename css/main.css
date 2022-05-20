@@ -39,11 +39,17 @@ body {
     background-color: #7296ec;
     display: inline-block;
 }
-
+.blue-btn:hover {
+    opacity: .8;
+}
+.blue-btn:active {
+    opacity: .6;
+}
 /* SITE HEADER STYLES */
-.site-header {
+.site-header-top {
     background-color: #f6f6f6;
     padding: 30px 0;
+    margin-bottom: 10px;
 }
 .site-header-container {
     display: flex;
@@ -60,6 +66,12 @@ body {
     width: 264px;
     height: 28px;
     object-fit: contain;
+}
+.site-header-logo-img:hover {
+    opacity: .8;
+}
+.site-header-logo-img:active {
+    opacity: .6;
 }
 .currensy-rates-list {
     display: flex;
@@ -107,13 +119,48 @@ body {
     color: #a6a6a6;
     text-align: center;
     text-decoration: none;
-    text-transform: uppercase;
+    text-transform: capitalize;
     display: inline-block;
 }
 .lang-toggler-link-active {
     background-color: #fff;
     color: #000;
 }
-.site-header-btn {
+/* SITE HEADER BOTTOM STYLES */
 
+.site-header-bottom {
+    margin-bottom: 50px;   
+}
+.sitenav-list {
+    padding: 20px 0px;
+    border-bottom: 1px solid #d1d1d1;
+    margin-bottom: 40px;
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+.sitenav-list-item:not(:last-child) {
+    margin-right: 34.44px;
+}
+.sitenav-item-link {
+    text-decoration: none;
+    color: #7f7f7f;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21.33px;
+    align-items: center;
+}
+.sitenav-item-link:hover {
+    color: #7296ec;
+}
+.site-header-banner {
+    display: flex;
+
+}
+.site-header-banner-img {
+    width: 100%;
+    height: auto;
+}
+.site-header-banner-img:active {
+    opacity: .6;
 }
