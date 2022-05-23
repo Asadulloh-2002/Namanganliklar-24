@@ -17,8 +17,5 @@ document.addEventListener("keydown", function(e){
     }
 })
 modalBg.addEventListener("click", function(e){
-    console.log(e.target);
-    if(e.target == 'modalBg') {
-        modalBg.classList.add("hidden")
-    }
+    modalBg.classList.add("hidden")
 })

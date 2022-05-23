@@ -292,6 +292,7 @@ body {
     background-color: #f78b3b;
     border: none;
     cursor: pointer;
+    outline: none;
 }
 
 /* MODAL NG STYLES */
@@ -330,7 +331,6 @@ body {
 }
 .modal-btn {
     padding: 15px 40px;
-    outline: none;
 }
 .hidden {
     display: none;
