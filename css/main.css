@@ -110,6 +110,9 @@ body {
     border-radius: 39px;
     margin-right: 25px;
 }
+.contact-lang {
+    margin-right: 0;
+}
 .lang-toggler-link {
     width: 30px;
     height: 30px;
@@ -523,6 +526,11 @@ body {
     line-height: 19px;
     text-decoration: none;
     color: #fff;
+    transition: all .5s ease;
+}
+.site-footer-nav-link:hover {
+    width: 100%;
+    border: 3px solid #fff;
 }
 .site-footer-hr {
     width: 100%;
@@ -551,11 +559,15 @@ body {
 }
 .site-footer-social-link {
     display: flex;
+    transition: all 0.2s ease;
 }
 .site-footer-social-link-img {
     width: 25px;
     height: 25px;
     object-fit: contain;
+}
+.site-footer-social-link:hover {
+    padding-bottom: 10px;
 }
 
 /* ARTICLE STYLES */
@@ -750,6 +762,24 @@ body {
     cursor: pointer;
     border-radius: 10px;
     margin-top: 10px;
+}
+.contact-form-btn {
+    background-image: linear-gradient(to right, #7296EE 0%, #348AC7  51%, #7296EE  100%);
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;            
+    box-shadow: 0 0 20px #eee;
+    border-radius: 10px;
+    display: block;
+}
+.contact-form-btn:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
 }
 /* CONTACT SITEBAR STYLES */
 .contact-sitebar-list {
